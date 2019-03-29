@@ -13,3 +13,4 @@ kickstarter = Nokogiri::HTML(html)
 binding.pry
 end
 create_project_hash
+project.css("ul.project-stats li.first.funded strong").text
