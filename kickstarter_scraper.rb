@@ -22,5 +22,3 @@ kickstarter.css("li.project.grid_4").each do |project|
     # return the projects hash
   projects
 end
-create_project_hash
-project.css("ul.project-stats li.first.funded strong").text
